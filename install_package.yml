@@ -3,7 +3,11 @@
   become: true
 
   tasks:
-    - name: Install nginx
+    - name: Install nginx (Ubu)
       apt:
         name: nginx
+        state: present
+    - name: Install screen (Ubu)
+      apt:
+        name: screen
         state: present
