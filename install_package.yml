@@ -7,6 +7,7 @@
       apt:
         name: nginx
         state: present
+        enabled: true
     - name: Install screen (Ubu)
       apt:
         name: screen
